@@ -8,11 +8,11 @@ In the root directory:
     npm i react react-dom babel-core babel-loader babelify babel-preset-react babel-preset-es2017
     npm i webpack webpack-dev-server babel-cli -g
     
-Make index.html in root
+- Make index.html in root
 
-Make directoies build and src in root
+- Make directoies build and src in root
 
-Make main.js in src
+- Make main.js in src
 
 index.html boilerplate:
 
@@ -38,7 +38,8 @@ main.js boilerplate:
       document.getElementById('app')
     );
     
-Make webpack.config.js in root
+- Make webpack.config.js in root
+
 webpack.config.js minimal config:
 
     module.exports = {
