@@ -12,6 +12,8 @@ In the root directory:
 
 - Make build and src directories in root
 
+- Make webpack.config.js in root
+
 - Make main.js in src
 
 index.html:
@@ -37,10 +39,8 @@ main.js:
       <h1>Hello World!</h1>,
       document.getElementById('app')
     );
-    
-- Make webpack.config.js in root
 
-webpack.config.js minimal config:
+webpack.config.js:
 
     module.exports = {
       // entry file
