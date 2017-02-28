@@ -14,7 +14,7 @@ In the root directory:
 
 - Make main.js in src
 
-index.html boilerplate:
+index.html:
 
     <!doctype html>
     <html>
@@ -28,7 +28,7 @@ index.html boilerplate:
       </body>
     </html>
     
-main.js boilerplate:
+main.js:
 
     import React from 'react';
     import ReactDOM from 'react-dom';
@@ -44,7 +44,7 @@ webpack.config.js minimal config:
 
     module.exports = {
       // entry file
-      entry: './main.js',
+      entry: './src/main.js',
       output: {
         path: __dirname + '/build',
         publicPath: '/build/',
@@ -73,3 +73,4 @@ webpack.config.js minimal config:
         ]
       }
     }
+
