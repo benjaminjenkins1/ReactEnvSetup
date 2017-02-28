@@ -10,7 +10,7 @@ In the root directory:
     
 - Make index.html in root
 
-- Make directoies build and src in root
+- Make build and src directories in root
 
 - Make main.js in src
 
