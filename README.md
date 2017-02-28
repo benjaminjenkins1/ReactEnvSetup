@@ -4,9 +4,9 @@ Guide for setting up a minimal react development environment.
 
 In the root directory:
 
-    npm init
-    npm i react react-dom babel-core babel-loader babelify babel-preset-react babel-preset-es2017
-    npm i webpack webpack-dev-server babel-cli -g
+    $ npm init
+    $ npm i react react-dom babel-core babel-loader babelify babel-preset-react babel-preset-es2017
+    $ npm i webpack webpack-dev-server babel-cli -g
     
 - Make index.html in root
 
@@ -76,8 +76,8 @@ webpack.config.js minimal config:
 
 To build:
 
-    webpack
+    $ webpack
     
 To run dev server:
 
-    wepack-dev-server
+    $ wepack-dev-server
