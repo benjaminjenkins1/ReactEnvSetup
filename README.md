@@ -1,13 +1,21 @@
 # React Environment Setup
+
 Guide for setting up a minimal react development environment.
+
 In the root directory:
+
     npm init
     npm i react react-dom babel-core babel-loader babelify babel-preset-react babel-preset-es2017
     npm i webpack webpack-dev-server babel-cli -g
+    
 Make index.html in root
+
 Make directoies build and src in root
+
 Make main.js in src
+
 index.html boilerplate:
+
     <!doctype html>
     <html>
       <head>
@@ -19,7 +27,9 @@ index.html boilerplate:
         <script src="build/bundle.js"></script>
       </body>
     </html>
+    
 main.js boilerplate:
+
     import React from 'react';
     import ReactDOM from 'react-dom';
      
@@ -27,8 +37,10 @@ main.js boilerplate:
       <h1>Hello World!</h1>,
       document.getElementById('app')
     );
+    
 Make webpack.config.js in root
 webpack.config.js minimal config:
+
     module.exports = {
       // entry file
       entry: './main.js',
