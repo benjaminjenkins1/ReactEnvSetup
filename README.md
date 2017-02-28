@@ -74,3 +74,10 @@ webpack.config.js minimal config:
       }
     }
 
+To build:
+
+    webpack
+    
+To run dev server:
+
+    wepack-dev-server
