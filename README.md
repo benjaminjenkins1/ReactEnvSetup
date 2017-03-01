@@ -67,7 +67,7 @@ webpack.config.js:
             loader: 'babel',
             // Passing queries/arguments to the loader
             query: {
-              presets: ['es2015', 'react']
+              presets: ['es2017', 'react']
             }
           }
         ]
