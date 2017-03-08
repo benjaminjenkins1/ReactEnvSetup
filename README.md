@@ -2,6 +2,10 @@
 
 Guide for setting up a minimal react development environment.
 
+Prerequisites:
+
+- Node v6.10.0 or later
+
 In the root directory:
 
     $ npm init
